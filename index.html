@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/out/themes/main.css">
+    <link rel="stylesheet" href="src/out/rwd.css">
+    <script src="src/out/main.js" defer></script>
+    <script src="src/out/app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap" rel="stylesheet">
+    <title>Chess Is Awesome</title>
+</head>
+<body>
+    <section class="page-container">
+        <header class="page-logo">
+            <span class="logo">
+                <div class="logo-image-wrapper">
+                    <div class="logo-image"></div>
+                </div>
+                <h1>
+                    ChessIs<span class="logo-color">Awesome</span>
+                </h1>
+            </span>
+            <input type="checkbox" id="hamburger" class="is-hidden" >
+            <label for="hamburger" id="hamburger-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </header>
+        <section class="page-content-body">
+            <section class="page-nav">
+                <div class="nav-elements">
+                    <div class="nav-element">Home</div>
+                    <label for="dropdown-top-articles" class="nav-element">
+                        News
+                    </label>
+                    <input type="checkbox" id="dropdown-top-articles" class="dropdown-trigger is-excluded">
+                    <ul class="dropdown-items">
+                        <li>
+                            <a href="#article-1" class="nav-element">
+                                Article 1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#article-2" class="nav-element">
+                                Article 2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#article-3" class="nav-element">
+                                Article 3
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#article-4" class="nav-element">
+                                Article 4
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#article-5" class="nav-element">
+                                Article 5
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="nav-element">Chess Openings</div>
+                    <div class="nav-element">Grandmasters</div>
+                    <div class="nav-element">About</div>
+                    <div class="nav-element">Contact</div>
+
+                    <label for="dropdown-themes" class="nav-element">
+                        Themes
+                    </label>
+                    <input type="checkbox" id="dropdown-themes" class="dropdown-trigger is-excluded">
+                    <ul class="dropdown-items" id="theme-buttons">
+                        
+                    </ul>
+
+                </div>
+            </section>
+            <section class="page-content">
+                <section class="articles">
+                    <article class="news-preview" id="article-1">
+                        <div class="news-header">
+                            <h3>Magnus Carlsen lost to Hans Niemann</h3>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-image">
+                                <img src="images/carlsen_niemann.webp" alt="carlsen_niemann">
+                            </div>
+                            <div class="news-short-text">
+                                <p class="article-p">
+                                    Magnus Carlsen lost in round 3 to Hans Niemann, the lowest rated player. It was his second loss to Neiman in a month and his first in classical chess. It was clearly a stunning result, costing Magnus a full nine ratings and pushing him further from his 2,900 goal. 
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="news-more">
+                            <div class="button">read more</div>
+                        </div>
+                        <div class="news-footer">
+                            <div class="news-actions">
+                                <i class="fa-solid fa-comment"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-preview" id="article-2">
+                        <div class="news-header">
+                            <h3>Hans Niemann post turnament interview</h3>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-image">
+                                <img src="images/hans.png" alt="niemann">
+                            </div>
+                            <div class="news-short-text">
+                                <p class="article-p">
+                                    Neiman was interviewed and mentioned that he "miraculously" saw a blurred line on the same morning as the game, which he saw because of Magnus in 2018 Saw this line against Wesley at the London Chess Classic in 2018. Well, Chessbase disagrees with Niemann, and Hikaru can't help but comment.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="news-more">
+                            <div class="button">read more</div>
+                        </div>
+                        <div class="news-footer">
+                            <div class="news-actions">
+                                <i class="fa-solid fa-comment"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-preview" id="article-3">
+                        <div class="news-header">
+                            <h3>Magnus carlsen became world chess champion at the age of 22.</h3>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-image">
+                                <img src="images/carlsen.png" alt="niemann">
+                            </div>
+                            <div class="news-short-text">
+                                <p class="article-p">
+                                    A chess prodigy, Carlsen won first place in Group C of the Corus Chess Championship shortly after turning 13, and a few months later was awarded the Grandmaster title. At the age of 15 he won the Norwegian Chess Championship and at the age of 17 he took first place in the top league in Corus.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="news-more">
+                            <div class="button">read more</div>
+                        </div>
+                        <div class="news-footer">
+                            <div class="news-actions">
+                                <i class="fa-solid fa-comment"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-preview" id="article-4">
+                        <div class="news-header">
+                           <h3> 2022 Sinkfield Cup of the 2022 Chess Tour has ended</h3>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-image">
+                                <img src="images/chess.png" alt="niemann">
+                            </div>
+                            <div class="news-short-text">
+                                <p class="article-p">
+                                    world number one chess player and world chess champion Magnus Carlsen participated in the 2022 Sinkfield Cup of the 2022 Chess Tour as a wild card. This comes two months after he officially announced that he would not defend his world title with Ian Nepomniachtchi, while reiterating his desire to compete and continue playing professional chess.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="news-more">
+                            <div class="button">read more</div>
+                        </div>
+                        <div class="news-footer">
+                            <div class="news-actions">
+                                <i class="fa-solid fa-comment"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-preview" id="article-5">
+                        <div class="news-header">
+                            <h3>Fifth Norwegian chess tournament</h3>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-image">
+                                <img src="images/nor_chess.png" alt="niemann">
+                            </div>
+                            <div class="news-short-text">
+                                <p class="article-p">
+                                    Carlsen participated in the fifth Norwegian chess tournament from June 6 to 16. He was underwhelming, with a performance rating of 2755, the lowest since 2015 (2670 in the European Team Chess Championship). In the end, he finished ninth in the round robin with 4/9 (+1−2=6), losing to Aronian and Kramnik and winning Karjakin. Aronian won the game 6/9 (+3−0=6).
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="news-more">
+                            <div class="button">read more</div>
+                        </div>
+                        <div class="news-footer">
+                            <div class="news-actions">
+                                <i class="fa-solid fa-comment"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-preview">
+                        <div class="news-header">
+                           <h3>Popular chess openings</h3>
+                        </div>
+                        <div class="news-content">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Opening Name</th>
+                                        <th>Percentage of Games Won</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="opening-name">Italian Game</td>
+                                        <td data-label="games-won-percent">57</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="opening-name">Sicilian Defense</td>
+                                        <td data-label="games-won-percent">69</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="opening-name">French Defense</td>
+                                        <td data-label="games-won-percent">49</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="opening-name">Ruy-Lopez</td>
+                                        <td data-label="games-won-percent">59</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="opening-name">Slav Defense</td>
+                                        <td data-label="games-won-percent">62</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <asiade class="ad-banner">
+                <img src="images/sus_ad.png" alt="ad">
+            </asiade>
+        </section>
+        <footer class="page-footer">
+            ChessIsAwesome 2022 &copy; developed by ot49362 gr 332
+        </footer>
+    </section>
+    <template id="theme-button-template">
+        <div class="nav-element" data-theme-name="">
+            
+        </div>
+    </template>
+</body>
+</html>
